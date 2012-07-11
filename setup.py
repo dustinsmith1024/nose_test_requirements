@@ -7,16 +7,16 @@ except ImportError:
 from setuptools import setup
 
 setup(
-    name='axiom reqs',
+    name='nose test requirements',
     version='0.1',
     author='Axiom',
     author_email = '',
-    description = 'Axiom Requirements HTML Outputter',
+    description = 'Nose plugin that outputs requirements in HTML',
     license = 'MIT',
-    py_modules = ['reqs'],
+    py_modules = ['plugin'],
     entry_points = {
         'nose.plugins': [
-            'reqs = reqs:ReqsOutput'
+            'requirements = plugin:ReqsOutput'
             ]
         }
 
