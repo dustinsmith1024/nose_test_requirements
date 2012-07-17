@@ -8,7 +8,7 @@ from setuptools import setup
 
 setup(
     name='nose test requirements',
-    version='0.1',
+    version='1.0.0',
     author='Axiom',
     author_email = '',
     description = 'Nose plugin that outputs requirements in HTML',
