@@ -63,7 +63,7 @@ class ReqsOutput(Plugin):
         # Push headers onto an array for writing
         headers = [ '<html><head>',
               '<title>Test output</title>',
-              '<link href="http://github.cerner.com/pages/Axiom/axiom_base/assets/css/axiom.css" rel="stylesheet" id="axiomCSS">',
+              '<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-responsive.min.css" rel="stylesheet">',
               '<style type="text/css">.filename{margin: 5px;}.hidden{display:none;}fieldset { padding: 1px 0 15px 10px; border: 1px solid lightGray; } legend { padding: 2px; width: inherit; border-style: none; margin-bottom: 0;}',
               '.ok { color: green; } .error, .fail { color: red; }'
               '</style>'
